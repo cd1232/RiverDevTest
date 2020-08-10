@@ -50,7 +50,7 @@
                         <div class="border-t border-black w-full mt-12 hidden xl:block"></div>
                         <div class="xl:col-span-2">
                             <p class="text-gray-500 tracking-widest-2">03</p>  
-                            <h2 class="uppercase font-bold text-3xl tracking-widest-2"  id="BookingForm">Heading</h2> 
+                            <h2 class="uppercase font-bold text-3xl tracking-widest-2">Heading</h2> 
                         </div>
                         <div class="col-span-12 xl:col-start-2 xl:col-span-4">
                             <p class="text-3xl mt-4 xl:mt-10">
@@ -58,7 +58,7 @@
                             </p>
                             <p class="mt-4 w-4/5 text-lg">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua, vero eos et accusam et justo duo dolores et ea rebum.</p>
                         </div>
-                        <div class="col-span-12 xl:col-span-4 mt-6">
+                        <div class="col-span-12 xl:col-span-4 mt-6" id="BookingForm">
                             <booking-form-component>
                                 {{ csrf_field() }}
                             </booking-form-component>

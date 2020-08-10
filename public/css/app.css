@@ -618,6 +618,10 @@ video {
   }
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .modal-mask {
   position: fixed;
   z-index: 9998;
